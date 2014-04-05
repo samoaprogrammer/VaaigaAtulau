@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/icons">
+        <file>C:/Users/071/Pictures/icons/b_star3.png</file>
+        <file>C:/Users/071/Pictures/icons/b_star4.png</file>
+        <file>C:/Users/071/Pictures/icons/b_star5.png</file>
+        <file>C:/Users/071/Pictures/icons/b_star6.png</file>
+        <file>C:/Users/071/Pictures/icons/Home10.png</file>
+        <file>C:/Users/071/Pictures/icons/Next10.png</file>
+        <file>C:/Users/071/Pictures/icons/P_ListView_Md_N.png</file>
+        <file>C:/Users/071/Pictures/icons/Prev10.png</file>
+        <file>C:/Users/071/Pictures/icons/startButtonPressed.png</file>
+        <file>C:/Users/071/Pictures/icons/refresh-32.png</file>
+        <file>C:/Users/071/Pictures/icons/searchMagnifier.png</file>
+        <file>C:/Users/071/Pictures/icons/kontact_notes.png</file>
+        <file>C:/Users/071/Pictures/icons/world.png</file>
+    </qresource>
+</RCC>

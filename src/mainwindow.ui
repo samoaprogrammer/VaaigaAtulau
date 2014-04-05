@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Vaaiga Atulau Version 1.0.1 (Samoan)</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <widget class="QWebView" name="webView">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="url">
+       <url>
+        <string>about:blank</string>
+       </url>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QWidget" name="AddessBarWidget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>IAL:</string>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/new/icons/C:/Users/071/Pictures/icons/world.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/world.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Teu</string>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/new/icons/C:/Users/071/Pictures/icons/kontact_notes.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/kontact_notes.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="toolTip">
+          <string>Ki Sue Itulau</string>
+         </property>
+         <property name="statusTip">
+          <string>Ki Sue Itulau </string>
+         </property>
+         <property name="text">
+          <string>Sue</string>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/new/icons/C:/Users/071/Pictures/icons/searchMagnifier.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/searchMagnifier.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFaila">
+    <property name="title">
+     <string>Faila</string>
+    </property>
+    <addaction name="actionVaaiga_Fou"/>
+    <addaction name="actionSeti_le_Polokalame"/>
+    <addaction name="actionTapuni_le_Pololalame"/>
+   </widget>
+   <widget class="QMenu" name="menuFesosoani">
+    <property name="title">
+     <string>Fesosoani</string>
+    </property>
+    <addaction name="actionFaoga_ina_o_le_Polokalame"/>
+    <addaction name="actionTusia_le_Polokalame"/>
+   </widget>
+   <widget class="QMenu" name="menuGaluega">
+    <property name="title">
+     <string>Galuega</string>
+    </property>
+    <addaction name="actionAmataga"/>
+    <addaction name="actionAluluma"/>
+    <addaction name="actionAlutua"/>
+    <addaction name="actionFaafou"/>
+   </widget>
+   <addaction name="menuFaila"/>
+   <addaction name="menuFesosoani"/>
+   <addaction name="menuGaluega"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>ToolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="actionAmataga"/>
+   <addaction name="actionAlutua"/>
+   <addaction name="actionAluluma"/>
+   <addaction name="actionFaafou"/>
+   <addaction name="separator"/>
+   <addaction name="actionFaoga_ina_o_le_Polokalame"/>
+   <addaction name="actionTusia_le_Polokalame"/>
+   <addaction name="actionSeti_le_Polokalame"/>
+   <addaction name="actionVaaiga_Fou"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actionSeti_le_Polokalame">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/P_ListView_Md_N.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/P_ListView_Md_N.png</iconset>
+   </property>
+   <property name="text">
+    <string>Seti le Polokalame</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionTapuni_le_Pololalame">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/startButtonPressed.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/startButtonPressed.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tapuni le Pololalame</string>
+   </property>
+  </action>
+  <action name="actionFaoga_ina_o_le_Polokalame">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/b_star6.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/b_star6.png</iconset>
+   </property>
+   <property name="text">
+    <string>Faoga ina o le Polokalame</string>
+   </property>
+  </action>
+  <action name="actionTusia_le_Polokalame">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/b_star4.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/b_star4.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tusia le Polokalame</string>
+   </property>
+  </action>
+  <action name="actionAmataga">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/Home10.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/Home10.png</iconset>
+   </property>
+   <property name="text">
+    <string>Amataga</string>
+   </property>
+   <property name="toolTip">
+    <string>Itulau Amata</string>
+   </property>
+   <property name="shortcut">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="actionAluluma">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/Next10.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/Next10.png</iconset>
+   </property>
+   <property name="text">
+    <string>Aluluma</string>
+   </property>
+   <property name="toolTip">
+    <string>Alu i le itulau soso i luma</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Right</string>
+   </property>
+  </action>
+  <action name="actionAlutua">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/Prev10.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/Prev10.png</iconset>
+   </property>
+   <property name="text">
+    <string>Alutua</string>
+   </property>
+   <property name="toolTip">
+    <string>Alu i le itulau e sosoo i tua</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Left</string>
+   </property>
+  </action>
+  <action name="actionFaafou">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/refresh-32.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/refresh-32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Faafou</string>
+   </property>
+   <property name="toolTip">
+    <string>Toe Faafou le Itulau</string>
+   </property>
+   <property name="statusTip">
+    <string>Faafou le Itulau</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionVaaiga_Fou">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/new/icons/C:/Users/071/Pictures/icons/b_star3.png</normaloff>:/new/icons/C:/Users/071/Pictures/icons/b_star3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vaaiga Fou</string>
+   </property>
+   <property name="toolTip">
+    <string>Tatala se Vaaiga Fou</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

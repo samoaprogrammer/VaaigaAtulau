@@ -1,0 +1,34 @@
+#FOR NOTES ON PROJECT AND IDEAS TO ADD IN TO THE PROJECT
+
+#NOTES::PROJECTS
+//Finish writting the settings functions and codes
+
+#IDEAS_ADD::PROJECTS
+
+[1] Add goverment ministry Links and helpers
+[2] Add Samoan Educational Links and helpers
+[3] Add Bookmark Funcation
+[4] Add Implement HTTP proxy funcation
+
+#BUGS_PRESENT
+[1] SSL side of the browser still not working
+[2] Proxy simplist still need to be fixed.
+
+
+#PROJECT::FOUNDATIONFUNCATION_AND_CODEPREP
+
+
+
+#PESUDO_CODE_PROXY_ENABLE
+
+//This is funcation and code set has been implemented
+if enableproxy = 0 {
+
+dont use proxy settings
+connect straight through
+
+} else if enableproxy = 1 {
+
+Use proxy for all connections
+
+}

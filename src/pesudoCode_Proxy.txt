@@ -1,0 +1,13 @@
+pesudo code for enabling Proxy
+==============================
+
+if enableproxy = 0 {
+
+dont use proxy settings
+connect straight through
+
+} else if enableproxy = 1 {
+
+Use proxy for all connections
+
+}
